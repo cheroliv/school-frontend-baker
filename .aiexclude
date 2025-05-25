@@ -1,0 +1,10 @@
+
+#Exclude everything
+managed-jbake-context.yml
+out
+.goose
+.gradle
+.idea
+build
+.gooseignore
+.goosehints
