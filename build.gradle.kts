@@ -48,6 +48,12 @@ buildscript {
 
 plugins { id("org.jbake.site") }
 
+project.tasks.wrapper {
+    gradleVersion = "8.14.2"
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+
 //TODO: add readme-site-repository
 tasks.register("publishSite") {
     group = "managed"
